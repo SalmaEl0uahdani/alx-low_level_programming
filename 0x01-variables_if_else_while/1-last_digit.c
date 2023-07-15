@@ -9,7 +9,8 @@
  */
 int main(void)
 {
-	int n, last_digit;
+	int n;
+        int last_digit;
 
 	last_digit = n % 10;
 	if (last_digit > 5)
