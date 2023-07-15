@@ -5,21 +5,13 @@
  *
  *Return: Always 0 (Success)
  */
-int main(void)
+int main (void)
 {
-	char c = 'a';
-
-	while (c <= 'z')
+	int i;
+	char alp [52] ="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	for (i=0; i < 52 ; i++)
 	{
-		putchar(c);
-		c++;
-		putchar('\n');
-	}
-	char C = 'A';
-	while (C <= 'Z')
-	{
-		putchar(C);
-		C++;
+		putchar(alp[i]);
 		putchar('\n');
 	}
 	return (0);
