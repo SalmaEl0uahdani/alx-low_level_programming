@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Resources:
 Function Pointer in C
 Pointers to functions
@@ -29,6 +28,3 @@ In the following examples, the main.c files are shown as examples. You can use t
 The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called function_pointers.h
 Don’t forget to push your header file
 All your header files should be include guarded
-=======
-0x0F-function_pointers readme file
->>>>>>> bb601429e8e35466cb26a8e88803195ddecf01d0
