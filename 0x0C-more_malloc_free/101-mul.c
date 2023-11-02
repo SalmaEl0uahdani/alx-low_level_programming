@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
         _putchar('o');
         _putchar('r');
         _putchar('\n');
-        return (98);
+        exit(98);
     }
 
     for (int i = 0; argv[1][i] != '\0'; i++)
@@ -67,7 +67,7 @@ int main(int argc, char *argv[])
             _putchar('o');
             _putchar('r');
             _putchar('\n');
-            return (98);
+            exit(98);
         }
     }
 
@@ -81,7 +81,7 @@ int main(int argc, char *argv[])
             _putchar('o');
             _putchar('r');
             _putchar('\n');
-            return (98);
+            exit(98);
         }
     }
 
